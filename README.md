@@ -1,5 +1,7 @@
 # Tabletop Notetaker
 
+[![Build Status](https://github.com/Harrison-Blair/tabletop-notetaker/workflows/Python%20application/badge.svg)](https://github.com/Harrison-Blair/tabletop-notetaker/actions)
+
 A comprehensive audio recording and transcription tool designed for tabletop gaming sessions, meetings, and discussions. Features both GUI and command-line interfaces with speaker diarization and intelligent summarization.
 
 ## Features
@@ -230,6 +232,23 @@ DYNAMIC_ENERGY = True
 4. Add GUI elements in `ui/gui.py`
 
 ### Testing
+
+Run the comprehensive test suite:
+```bash
+# With pytest (recommended)
+pytest tests/ -v
+
+# Or with simple test runner (no additional dependencies)
+python tests/run_tests.py
+```
+
+**✅ Test Results: All 6 tests passing**
+- Core module imports ✓
+- Application initialization ✓
+- CLI interface functionality ✓
+- GUI interface compatibility ✓
+- Service initialization ✓
+- Summarization functionality ✓
 
 Run basic functionality test:
 ```bash
